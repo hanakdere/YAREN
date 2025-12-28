@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Unit 1 Kelime Oyunu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game">
+  <h1>Unit 1 Kelime Oyunu</h1>
+
+  <div class="score">
+    Puan: <span id="score">0</span> |
+    Yanlış: <span id="wrong">0</span>/3
+  </div>
+
+  <div id="question" class="question">Soru</div>
+
+  <div id="options" class="options"></div>
+</div>
+
+<!-- Popup -->
+<div id="popup" class="popup hidden">
+  <div class="popup-content">
+    <p id="popup-text"></p>
+    <button onclick="closePopup()">Devam</button>
+  </div>
+</div>
+
+<script src="words.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

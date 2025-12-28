@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #121212;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+   background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("01.png") no-repeat center center fixed;
+  background-size: cover;
+
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game {
+  .game {
+   width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background: rgba(0,0,0,1); 
+  border-radius: 10px;
+  text-align: center;
+}
+
+}
+
+.question {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.options button {
+  width: 100%;
+padding: 12px;
+margin: 8px 0;
+border: none;
+border-radius: 6px;
+
+background: rgba(47, 47, 47, 0.15);
+color: white;
+font-size: 16px;
+}
+
+.options button:hover {
+  background: #444;
+  cursor: pointer;
+}
+
+.popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: #222;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.popup-content button {
+  margin-top: 10px;
+  padding: 8px 16px;
+}
+
+.hidden {
+  display: none;
+}
